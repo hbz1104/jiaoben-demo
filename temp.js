@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         demo01
 // @namespace    http://tampermonkey.net/
-// @version      2024-05-16
+// @version      2024-05-16.2
 // @description  try to take over the world!
 // @author       HBZ
 // @match        *://*
@@ -12,5 +12,5 @@
 
 (function() {
     'use strict';
-    console.log('你好，油猴');
+    console.log('你好，油猴2');
 })();``
