@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         videoChange
 // @namespace    http://tampermonkey.net/
-// @version      v0.3
+// @version      v0.4
 // @description  简单视频倍速改变
 // @author       HBZ
 // @match        *://*/*
@@ -12,7 +12,8 @@
 
 (function() {
     'use strict';
-    let v1 = document.getElementsByTagName("video");
+    let d1 = document.getElementById('container');
+    let v1 = d1.getElementsByTagName('video');
     v1.playbackRate = 16;
-    console.log('运行成功');
+    console.log(v1);
 })();
