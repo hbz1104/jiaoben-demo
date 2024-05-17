@@ -14,4 +14,5 @@
     'use strict';
     let v1 = document.getElementsByTagName("video");
     v1.playbackRate = 16;
+    console.log('运行成功');
 })();
